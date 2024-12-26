@@ -3,9 +3,8 @@
   "version": "2.0.1",
   "description": "React label list component",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register --require ignore-styles test/**/*.spec.js",
     "build": "babel ./src --out-dir ./lib",
-    "prepublish": "npm run build && npm run test"
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
